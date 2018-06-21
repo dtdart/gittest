@@ -15,6 +15,7 @@ namespace dotnetmvc
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+			//Comment//
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
